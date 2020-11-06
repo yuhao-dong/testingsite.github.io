@@ -146,6 +146,10 @@
         font-size:250%;
         font-family: Impact, Charcoal, sans-serif;                      /* Main Section header name "YUHAO DONG"*/
     }
+    .namemargin{
+        margin-top: -1%;
+        margin-bottom: -1%;
+    }
 }
 
 /* Other CSS Styles */
