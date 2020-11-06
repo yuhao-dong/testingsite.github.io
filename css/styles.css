@@ -27,15 +27,68 @@
     width:50%                                                       /* for Navigation Photo */
 }
 
+.infofont{
+    font-size:130%;                                                 /* FOR PHONE # and EMAIL ADDRESS*/
+}
+
+.descriptionfont{                                                   /* For Home Page Description */
+    font-size:160%;
+    margin-left: 5%; 
+    margin-right:5%;
+    line-height: 1.6;
+}
+
+.infomargin{
+    margin-bottom: -0.5%;
+}
+
+.name{
+    font-size:400%;
+    font-family: Impact, Charcoal, sans-serif;                      /* Main Section header name "YUHAO DONG"*/
+}
+
 /* General Main Section */
 .main{
     margin-left:300px;              /*Should be same as the width above */
-    margin-top:100px;
+    margin-top:80px;
     text-align: center;
 }
 
+/* NOT FOR TABLETS NOR MOBILE, BUT WINDOW SIZE */
+@media only screen and (max-width:1100px){
+    .infofont{                                             /* FOR PHONE # and EMAIL ADDRESS*/
+        font-size:100%;
+    }
+    .main{
+        margin-left:250px;                                          /*Reduced to 200px */
+        margin-top:60px;
+        text-align: center;
+    }
+    .sidenav{
+        height:100%;
+        width:250px;                                                    /* 300 px for the width */
+        position:fixed;
+        top:0;
+        left:0;
+        background-color:antiquewhite;                                  /*Navigation background color */
+        overflow-x:hidden;
+        padding-top: 20px;
+    }
+    .descriptionfont{                                                   /* For Home Page Description */
+        font-size:130%;
+    }
+
+    .infomargin{
+        margin-bottom: -1.5%;
+    }
+    .name{
+        font-size:320%;
+        font-family: Impact, Charcoal, sans-serif;                      /* Main Section header name "YUHAO DONG"*/
+    }
+}
+
 /* For Tablets */
-@media only screen and (max-width:800px){
+@media only screen and (max-width:850px){
     .main{
         margin-left:200px;                                          /*Reduced to 200px */
         margin-top:50px;
@@ -83,6 +136,12 @@
         width:20%;
         margin-bottom: -5%;
     }
+    .infofont{
+        font-size:85%;                                                 /* FOR PHONE # and EMAIL ADDRESS*/
+    }
+    .infomargin{
+        margin-bottom: -4%;
+    }
 }
 
 /* Other CSS Styles */
@@ -99,10 +158,7 @@
     border:8px solid lightgray;                                     /* for Navigation manu picture */
 }
 
-.name{
-    font-size:450%;
-    font-family: Impact, Charcoal, sans-serif;                      /* Main Section header name "YUHAO DONG"*/
-}
+
 
 
 
