@@ -137,10 +137,14 @@
         margin-bottom: -5%;
     }
     .infofont{
-        font-size:85%;                                                 /* FOR PHONE # and EMAIL ADDRESS*/
+        font-size:80%;                                                 /* FOR PHONE # and EMAIL ADDRESS*/
     }
     .infomargin{
         margin-bottom: -4%;
+    }
+    .name{
+        font-size:250%;
+        font-family: Impact, Charcoal, sans-serif;                      /* Main Section header name "YUHAO DONG"*/
     }
 }
 
