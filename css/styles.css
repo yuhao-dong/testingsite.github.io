@@ -51,18 +51,16 @@
 .main{
     margin-left:300px;              /*Should be same as the width above */
     margin-top:80px;
-    text-align: center;
 }
 
 /* NOT FOR TABLETS NOR MOBILE, BUT WINDOW SIZE */
-@media only screen and (max-width:1100px){
+@media only screen and (max-width:1200px){
     .infofont{                                             /* FOR PHONE # and EMAIL ADDRESS*/
         font-size:100%;
     }
     .main{
         margin-left:250px;                                          /*Reduced to 200px */
         margin-top:60px;
-        text-align: center;
     }
     .sidenav{
         height:100%;
@@ -92,7 +90,6 @@
     .main{
         margin-left:200px;                                          /*Reduced to 200px */
         margin-top:50px;
-        text-align: center;
     }
     .sidenav{
         height:100%;
@@ -118,7 +115,6 @@
     .main{
         margin-left:0px;                                          /* Full Screen */
         margin-top:10px;
-        text-align: center;
     }
     .sidenav{                                                      /*MIGHT NEED TO FIX LATER!!!!! */
         width:100%;
@@ -148,7 +144,7 @@
     }
     .namemargin{
         margin-top: -1%;
-        margin-bottom: -1%;
+        margin-bottom: -0.5%;
     }
 }
 
@@ -170,5 +166,307 @@
 
 
 
+
+
+
+
+/*FOR EDUCATION PAGE*/
+
+.fontweight1{
+            font-weight:600
+        }
+.educationfont{
+    font-size: 350%;
+    margin-top: 50px;
+    margin-bottom: 0px
+}
+
+.termfont{
+    margin-top:7px;
+    font-size:100%;
+    color:#E3242B;
+}
+.schoolfont{
+    font-size: 140%;
+}
+.degreefont{
+    font-size: 100%;
+    color:darkgray;
+}
+
+/* NOT FOR TABLETS NOR MOBILE, BUT WINDOW SIZE */
+@media only screen and (max-width:1200px){
+    .educationfont{
+        font-size: 300%;
+        margin-top: 30px;
+        margin-bottom: 0px
+    }
+    .termfont{
+        margin-top:7px;
+        font-size:90%;
+    }
+    .schoolfont{
+        font-size: 115%;
+    }
+}
+
+
+/* For Tablets */
+@media only screen and (max-width:850px){
+    .educationfont{
+        font-size: 250%;
+        margin-top: 30px;
+        margin-bottom: 0px
+    }
+    .termfont{
+        margin-top:7px;
+        font-size:80%;
+    }
+    .schoolfont{
+        font-size: 110%;
+    }
+}
+
+
+/* For Mobile Devices */
+@media only screen and (max-width:500px){
+    .educationfont{
+        font-size: 230%;
+        margin-top: 0px;
+        margin-bottom: 0px
+    }
+    .termfont{
+        margin-top:7px;
+        font-size:70%;
+    }
+    .schoolfont{
+        font-size: 95%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        
+.tablink {
+    background-color: #555;                                          /* for full page tab*/
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 20px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;                                          /* for full page tab*/
+}
+        
+.tabcontent {
+    color: black;                                                    /* for full page content*/
+    display: none;
+    padding: 100px 20px;                                            /* for full page tab*/
+    height: 100%;
+}
+        
+        
+#Home {background-color: white;}
+#News {background-color: white;}
+#Contact {background-color: white;}
+#About {background-color: white;}
+        
+        
+        
+        
+        /*
+        Below are for the Research Gallery
+        */
+        
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.responsive {
+    padding: 5px;
+    float: left;
+    width: 45%;
+    margin:1%;
+}
+
+        
+        
+@media only screen and (max-width: 1100px) {
+    .responsive {
+        width: 45%;
+        margin: 6px;
+    }
+}
+        
+@media only screen and (max-width: 600px) {
+    .responsive {
+        width: 95%;
+    }
+}
+
+        
+        
+        
+        /*
+        Accordion
+        */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+        
+        
+        
+        
+
+        
+        
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+        
+
+.margin_1{
+    margin-left: 25%;
+    margin-right:25%;
+}
+        
+@media only screen and (max-width: 1300px) {
+    .margin_1 {
+        margin-left:10%;
+        margin-right: 10%;
+    }
+}
+        
+        
+        
+        
 
 
