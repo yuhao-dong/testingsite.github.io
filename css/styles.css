@@ -194,6 +194,37 @@
     color:darkgray;
 }
 
+.tablink {
+    background-color: #555;                                          /* for full page tab*/
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 20px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;                                          /* for full page tab*/
+}
+        
+.tabcontent {
+    color: black;                                                    /* for full page content*/
+    display: none;
+    padding: 100px 20px;                                            /* for full page tab*/
+    height: 100%;
+}
+        
+        
+#Home {background-color: white;}
+#News {background-color: white;}
+#Contact {background-color: white;}
+#About {background-color: white;}
+
+
+
 /* NOT FOR TABLETS NOR MOBILE, BUT WINDOW SIZE */
 @media only screen and (max-width:1200px){
     .educationfont{
@@ -240,7 +271,10 @@
         font-size:70%;
     }
     .schoolfont{
-        font-size: 95%;
+        font-size: 90%;
+    }
+    .tablink{
+        font-size:15px;
     }
 }
 
@@ -256,34 +290,7 @@
 
 
         
-.tablink {
-    background-color: #555;                                          /* for full page tab*/
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 20px;
-    width: 25%;
-}
 
-.tablink:hover {
-    background-color: #777;                                          /* for full page tab*/
-}
-        
-.tabcontent {
-    color: black;                                                    /* for full page content*/
-    display: none;
-    padding: 100px 20px;                                            /* for full page tab*/
-    height: 100%;
-}
-        
-        
-#Home {background-color: white;}
-#News {background-color: white;}
-#Contact {background-color: white;}
-#About {background-color: white;}
         
         
         
@@ -357,7 +364,7 @@ div.desc {
 }
 
 .panel {
-    padding: 0 18px;
+    /* padding: 0 18px; */
     display: none;
     background-color: white;
     overflow: hidden;
