@@ -282,6 +282,13 @@
     .eduspace{
         margin-bottom:-5%;
     }
+    .degreefont{
+        font-size: 80%;
+        color:darkgray;
+    }
+    .fontweight1{
+        font-weight:400
+    }
 }        
         
         /*
