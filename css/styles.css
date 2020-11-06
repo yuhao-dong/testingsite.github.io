@@ -270,14 +270,14 @@
         margin-bottom: 0px
     }
     .termfont{
-        margin-top:7px;
+        margin-top:0px;
         font-size:70%;
     }
     .schoolfont{
         font-size: 90%;
     }
     .tablink{
-        font-size:15px;
+        font-size:13px;
     }
     .eduspace{
         margin-bottom:-5%;
@@ -287,7 +287,7 @@
         color:darkgray;
     }
     .fontweight1{
-        font-weight:400
+        font-weight:500
     }
 }        
         
