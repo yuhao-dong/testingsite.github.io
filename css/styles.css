@@ -170,6 +170,9 @@
 
 
 
+
+
+
 /*FOR EDUCATION PAGE*/
 
 .fontweight1{
@@ -275,6 +278,9 @@
     }
     .tablink{
         font-size:15px;
+    }
+    .eduspace{
+        margin-bottom:-5%;
     }
 }        
         
