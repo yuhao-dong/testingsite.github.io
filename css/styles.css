@@ -276,24 +276,7 @@
     .tablink{
         font-size:15px;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-        
-        
-        
+}        
         
         /*
         Below are for the Research Gallery
@@ -334,14 +317,11 @@ div.desc {
     }
 }
         
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
     .responsive {
         width: 95%;
     }
 }
-
-        
-        
         
         /*
         Accordion
@@ -370,11 +350,7 @@ div.desc {
     overflow: hidden;
 }
         
-        
-        
-        
 
-        
         
 /* Position the image container (needed to position the left and right arrows) */
 .container {
