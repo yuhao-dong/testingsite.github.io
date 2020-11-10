@@ -270,7 +270,7 @@
         margin-bottom: 0px
     }
     .termfont{
-        margin-top:0px;
+        margin-top:1px;
         font-size:70%;
     }
     .schoolfont{
@@ -283,7 +283,7 @@
         margin-bottom:-5%;
     }
     .degreefont{
-        font-size: 80%;
+        font-size: 70%;
         color:darkgray;
     }
     .fontweight1{
@@ -463,6 +463,51 @@ div.desc {
         
         
         
-        
 
 
+
+
+
+
+
+
+
+/*FOR RESEARCH PAGE*/
+.schoolfont2{
+    font-size: 130%;
+}
+
+.researchfont{
+    font-size: 130%;
+}
+
+
+/* NOT FOR TABLETS NOR MOBILE, BUT WINDOW SIZE */
+@media only screen and (max-width:1300px){
+    .schoolfont2{
+        font-size: 120%;
+    }
+    .researchfont{
+        font-size: 120%;
+    }
+}
+
+/* For Tablets */
+@media only screen and (max-width:950px){
+    .schoolfont2{
+        font-size: 100%;
+    }
+    .researchfont{
+        font-size: 100%;
+    }
+}
+
+/* For Mobile Devices */
+@media only screen and (max-width:500px){
+    .schoolfont2{
+        font-size: 80%;
+    }
+    .researchfont{
+        font-size: 80%;
+    }
+}
